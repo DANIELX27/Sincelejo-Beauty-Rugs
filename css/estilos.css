@@ -1,4 +1,251 @@
 @charset "UTF-8";
+@media (min-width: 320px) {
+  /*GENERAL*/
+  body {
+    background-color: #E4E5DF; }
+  @keyframes title_animation {
+    0% {
+      color: #FCFF00; }
+    20% {
+      color: #FCFF00; }
+    40% {
+      color: #001EFF; }
+    60% {
+      color: #001EFF; }
+    80% {
+      color: #FF3F16; }
+    100% {
+      color: #FF3F16; } }
+  h1 {
+    font-size: 25px;
+    color: #FF3F16;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    animation-name: title_animation;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s; }
+  h2 {
+    font-family: normal;
+    font-weight: bold; }
+  /*INDEX*/
+  /*BARRA DE NAVEGACIÓN*/
+  a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+    top: 10px;
+    display: inline-block;
+    padding: 10px; }
+  nav {
+    background-color: #A600FF;
+    font-size: 10px;
+    padding: 0px;
+    height: 85px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 0px; }
+  .mnb {
+    display: inline-block; }
+  /*PARRAFOS, LISTAS Y FOOTER*/
+  .dos {
+    font-size: 30px;
+    color: #16FF1A;
+    text-shadow: 2px 2px 2px #000; }
+  .tres {
+    font-size: 30px;
+    color: #00F;
+    text-shadow: 2px 2px 2px #000; }
+  ol li {
+    color: #FF00E0;
+    font-weight: bold; }
+  .FBI {
+    font-family: Agency FB;
+    font-size: 15px; }
+  .amarillo {
+    color: #FFB200;
+    text-shadow: 2px 2px 2px #000; }
+  footer {
+    border-radius: 30px;
+    text-align: center;
+    background-image: radial-gradient(red, yellow);
+    margin: 3px;
+    padding: 10px;
+    height: 65px; }
+  .section_1 {
+    width: 90%;
+    margin: 15px;
+    background-color: #B1FFBE;
+    padding: 20px;
+    align-content: center; }
+  .section_2 {
+    margin: 15px;
+    width: 90%;
+    background-color: #B1CCFF;
+    padding: 20px;
+    align-content: center; }
+  .section_3 {
+    margin: 15px;
+    width: 90%;
+    background-color: #B2FFFD;
+    padding: 20px;
+    align-content: center; }
+  .section_4 {
+    margin: auto;
+    width: 400px;
+    background-color: #B2FFFD;
+    padding: 20px;
+    align-content: center;
+    left: 300px;
+    border-radius: 30px; }
+  /*IMAGENES(all)*/
+  .bloque_1 {
+    width: 150px;
+    height: 120px;
+    float: right;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #FFB9EF;
+    border: 5px double black; }
+  .bloque_2 {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border: 5px double black;
+    border-radius: 30px;
+    background-color: #FFB9EF;
+    margin: 0px 0px; }
+  .bloque_3 {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border: 5px double black;
+    border-radius: 30px;
+    background-color: #FFB9EF;
+    margin: 0px 0px; }
+  .bloque_4 {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border: 5px double black;
+    border-radius: 30px;
+    background-color: #FFB9EF;
+    margin: 0px 0px; }
+  .container_1 {
+    width: 800px;
+    position: absolute;
+    left: 300px; }
+  .container_2 {
+    padding: 10px;
+    border: 5px dotted #33F157;
+    border-radius: 30px;
+    background-color: #5560EA;
+    display: grid;
+    justify-content: stretch;
+    grid-column-gap: 7px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 15px; }
+  .container_3 {
+    padding: 10px;
+    border: 5px dotted #33F157;
+    border-radius: 30px;
+    background-color: #5560EA;
+    display: grid;
+    justify-content: stretch;
+    grid-column-gap: 7px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 15px; }
+  .container_4 {
+    padding: 10px;
+    border: 5px dotted #33F157;
+    border-radius: 30px;
+    background-color: #5560EA;
+    display: grid;
+    justify-content: stretch;
+    grid-column-gap: 7px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 15px; }
+  .bloque_1:hover, .bloque_2:hover, .bloque_3:hover, .bloque_4:hover {
+    transform: scale(1.1, 1.1); }
+  /*PAGINA DE CONTACTO*/
+  .port {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  .Contacto {
+    width: 260px;
+    background-color: #BDFF00;
+    align-content: center;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid #000; }
+  .hombre {
+    float: left; }
+  .mujer {
+    float: left; }
+  form {
+    font-family: Agency FB;
+    font-size: 20px; }
+  .boton {
+    background-color: #F22F2F;
+    color: #0000FF; }
+  .boton:hover {
+    background-image: linear-gradient(#0C00FF, #00FFE4);
+    color: #FFA800; }
+  /*PAGINA DE PRODUCTOS*/
+  .linkPijama {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: #FBAD17;
+    border: 10px double #21EFDE;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px; }
+  .linkBolso {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: #FBAD17;
+    border: 10px double #21EFDE;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px; }
+  .linkTapete {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: #FBAD17;
+    border: 10px double #21EFDE;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px; }
+  /*INTEGRANTES*/
+  .for_red {
+    color: red; } }
+
 @media (min-width: 1024px) {
   /*GENERAL*/
   body {
@@ -107,7 +354,7 @@
     border-radius: 30px; }
   /*IMAGENES(all)*/
   .bloque_1 {
-    width: 440px;
+    width: 450px;
     height: 360px;
     float: right;
     margin: 5px;
