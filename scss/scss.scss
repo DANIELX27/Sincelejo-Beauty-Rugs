@@ -109,7 +109,7 @@ $ancho_imagenes_cel:100px;
     
     .section_2 {
         margin: 15px;
-        width: 90%;
+        width: 65%;
         background-color: #B1CCFF;
         padding: 20px;
         align-content: center;
@@ -117,7 +117,7 @@ $ancho_imagenes_cel:100px;
     
     .section_3 {
         margin: 15px;
-        width: 90%;
+        width: 65%;
         background-color: #B2FFFD;
         padding: 20px;
         align-content: center;
@@ -178,7 +178,8 @@ $ancho_imagenes_cel:100px;
     .container_1 {
         width: 200px;
         position: absolute;
-        left: 270px;
+        top: 450px;
+        left: 190px;
     }
     
     .container_2 {
@@ -369,6 +370,7 @@ $ancho_imagenes_cel:100px;
         font-size: 15px;
         padding: 0px;
         height: 100px;
+        width: 100%;
         font-weight: bold;
         text-align: center;
         word-spacing: 0px;
@@ -427,7 +429,7 @@ $ancho_imagenes_cel:100px;
     
     .section_2 {
         margin: 15px;
-        width: 90%;
+        width: 65%;
         background-color: #B1CCFF;
         padding: 20px;
         align-content: center;
@@ -435,7 +437,7 @@ $ancho_imagenes_cel:100px;
     
     .section_3 {
         margin: 15px;
-        width: 90%;
+        width: 65%;
         background-color: #B2FFFD;
         padding: 20px;
         align-content: center;
@@ -453,7 +455,7 @@ $ancho_imagenes_cel:100px;
     
     /*IMAGENES(all)*/
     .bloque_1 {
-        width: 175px;
+        width: 130px;
         height: 120px;
         float: right;
         margin: 5px;
@@ -494,7 +496,7 @@ $ancho_imagenes_cel:100px;
     }
     
     .container_1 {
-        width: 200px;
+        width: 60px;
         position: absolute;
         left: 340px;
     }
@@ -814,6 +816,7 @@ $ancho_imagenes_cel:100px;
     .container_1 {
         width: 300px;
         position: absolute;
+        top: 150px;
         left: 310px;
     }
     
@@ -1417,8 +1420,8 @@ footer {
 
 /*IMAGENES(all)*/
 .bloque_1 {
-    width: 430px;
-    height: 360px;
+    width: 420px;
+    height: 350px;
     float: right;
     margin: 5px;
     padding: 10px;
@@ -1460,6 +1463,7 @@ footer {
 .container_1 {
     width: 900px;
     position: absolute;
+    top: 120px;
     left: 400px;
 }
 
