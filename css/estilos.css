@@ -1174,7 +1174,8 @@
     grid-template-rows: 1fr 1fr 1fr;
     margin-top: 15px; }
   .bloque_1:hover, .bloque_2:hover, .bloque_3:hover, .bloque_4:hover {
-    transform: scale(1.1, 1.1); }
+    transform: scale(1.1, 1.1);
+    display: block; }
   /*PAGINA DE CONTACTO*/
   .port {
     width: 100%;
